@@ -148,6 +148,7 @@ livenessProbe:
     failureThreshold: 10
     initialDelaySeconds: 15
     periodSeconds: 30
+    timeoutSeconds: 3
 
 readinessProbe:
   config:
